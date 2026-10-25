@@ -1,0 +1,12 @@
+:root {
+  --canvas: #f8f9f3;
+  --ink: #2d3227;
+  --charcoal: #242622;
+  --muted: #89917b;
+  --border: #e4e7db;
+  --violet: #9473d9;
+  --violet-dark: #7050b5;
+  --lime: #dcf485;
+  --body: "DM Sans", sans-serif;
+  --heading: "Space Grotesk", sans-serif;
+}

@@ -1,0 +1,264 @@
+/* Keep secondary text readable on the warm surfaces. Decorative art is aria-hidden. */
+:root {
+  --muted: #68715c;
+  --violet: #7e59bd;
+}
+.desktop-context,
+.desktop-context > span,
+.eyebrow,
+.search-trigger,
+.search-trigger kbd,
+.page-subtitle,
+.stat-detail,
+.section-subtitle,
+.work-row-main > span:last-child,
+.count,
+.due,
+.due-urgent,
+.text-link,
+.personal-row small,
+.add-task-link,
+.class-mini small,
+.local-note p,
+.local-note button,
+.workspace-footer,
+.workspace-footer button,
+.notice-card-top,
+.notice-card > p,
+.notice-card-bottom small,
+.teacher-note > p:not(.eyebrow),
+.class-card-foot,
+.bottom-note,
+.breadcrumb,
+.breadcrumb button,
+.kind-filter,
+.progress-footnote,
+.modal-copy,
+.role-pill,
+.account-option small:not(.role-pill),
+.info-note,
+.form-note,
+.optional,
+.detail-meta,
+.detail-author > div > span,
+.search-caption,
+.search-results small,
+.personal-row .work-title-static {
+  color: #626d53;
+}
+.hero-tag,
+.hero-copy > p,
+.hero-bottom {
+  color: #fff;
+}
+.hero-action small {
+  color: #6e647a;
+}
+.notice-card-top {
+  color: #655f4d;
+}
+.notice-card > p,
+.notice-card-bottom small {
+  color: #656150;
+}
+.notice-lilac .notice-card-top,
+.notice-lilac > p,
+.notice-lilac .notice-card-bottom small {
+  color: #62596d;
+}
+.mini-avatar {
+  color: #63523c;
+}
+.due-complete {
+  color: #4f642a;
+}
+.due-urgent {
+  color: #7d5b2d;
+}
+.class-banner .eyebrow,
+.class-banner p:last-child {
+  color: #685378;
+}
+.class-banner.peach .eyebrow,
+.class-banner.peach p:last-child {
+  color: #7a5332;
+}
+.segmented button,
+.segmented button span {
+  color: #626d53;
+}
+.work-summary p,
+.work-summary > span {
+  color: #626f4e;
+}
+.work-completed .work-title,
+.work-completed .work-title-static {
+  color: #707961;
+}
+.create-form input::placeholder,
+.create-form textarea::placeholder {
+  color: #747d66;
+}
+.create-form label {
+  color: #59674b;
+}
+.assignment-deadline {
+  color: #626f4e;
+}
+.search-results strong {
+  color: #4b583e;
+}
+.mobile-nav > a {
+  color: #626d53;
+}
+.toast {
+  color: #f3f8e9;
+}
+.momentum-content p,
+.momentum-footer {
+  color: #c0c7b1;
+}
+.completion {
+  position: relative;
+}
+.completion:after {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border-radius: 7px;
+}
+.date-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 9px;
+}
+.date-shortcuts button {
+  border: 1px solid #dce2ce;
+  border-radius: 5px;
+  padding: 6px 9px;
+  font-size: 10px;
+  color: #626f4e;
+  background: #edf1e3;
+}
+.date-shortcuts button:hover {
+  background: #e0e9cc;
+}
+.work-title,
+.work-title-static {
+  font-size: 12px;
+}
+.work-row-main > span:last-child {
+  font-size: 10px;
+}
+.stat-label {
+  font-size: 12px;
+}
+.stat-detail {
+  font-size: 10px;
+}
+.section-subtitle {
+  font-size: 11px;
+}
+.notice-card > p {
+  font-size: 11px;
+}
+.notice-card h3 {
+  font-size: 16px;
+}
+.personal-row .work-title-static {
+  font-size: 12px;
+}
+.personal-row small {
+  font-size: 10px;
+}
+.class-mini strong {
+  font-size: 12px;
+}
+.class-mini small {
+  font-size: 10px;
+}
+.local-note strong {
+  font-size: 11px;
+}
+.local-note p {
+  font-size: 10px;
+}
+.class-mini .rail-heading h2 {
+  font-size: 15px;
+}
+.due {
+  font-size: 10px;
+}
+@media (max-width: 1220px) {
+  .stat-label {
+    font-size: 11px;
+  }
+  .stat-detail {
+    font-size: 9px;
+  }
+  .work-title,
+  .work-title-static {
+    font-size: 11px;
+  }
+  .work-row-main > span:last-child {
+    font-size: 9px;
+  }
+  .due {
+    font-size: 9px;
+  }
+  .personal-row .work-title-static {
+    font-size: 11px;
+  }
+  .personal-row small {
+    font-size: 9px;
+  }
+  .notice-card h3 {
+    font-size: 15px;
+  }
+  .notice-card > p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 760px) {
+  .work-title,
+  .work-title-static {
+    font-size: 12px;
+  }
+  .work-row-main > span:last-child {
+    font-size: 10px;
+  }
+  .stat-label {
+    font-size: 10px;
+  }
+  .section-subtitle {
+    font-size: 11px;
+  }
+  .notice-card h3 {
+    font-size: 15px;
+  }
+  .notice-card > p {
+    font-size: 10px;
+  }
+  .notice-card-top > span {
+    font-size: 6px;
+  }
+  .personal-row .work-title-static {
+    font-size: 12px;
+  }
+  .personal-row small {
+    font-size: 10px;
+  }
+  .due {
+    font-size: 9px;
+  }
+  .work-row > .due {
+    font-size: 8px;
+  }
+  .page-intro > .button {
+    color: transparent;
+  }
+  .page-intro > .button svg {
+    color: var(--ink);
+  }
+}
